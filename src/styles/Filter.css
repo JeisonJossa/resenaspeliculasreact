@@ -1,0 +1,24 @@
+
+.form-label {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.form-select {
+  border-radius: 2rem;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.form-select:focus {
+  border-color: #ced4da;
+  box-shadow: none;
+}
+
+@media (max-width: 767px) {
+  .form-label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+}

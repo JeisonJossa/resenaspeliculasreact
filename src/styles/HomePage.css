@@ -1,0 +1,58 @@
+
+.container {
+  margin-top: 2rem;
+}
+
+.col-md-3 {
+  border-right: 1px solid #dee2e6;
+  padding-right: 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.form-control {
+  background-color: #f9f9f9;
+  border: none;
+  border-radius: 2rem;
+  padding: 0.5rem 1rem;
+  width: 100%;
+}
+
+.form-control:focus {
+  border-color: #f9f9f9;
+  box-shadow: none;
+}
+
+.movie-card {
+  margin-bottom: 2rem;
+}
+
+.movie-card .card-body {
+  display: flex;
+  align-items: center;
+}
+
+.movie-card .card-body img {
+  width: 100px;
+  margin-right: 1rem;
+}
+
+.movie-card .card-body .card-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.movie-card .card-body .card-text {
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 767px) {
+  .col-md-3 {
+    border-right: none;
+    padding-right: 0;
+    margin-bottom: 1rem;
+  }
+}

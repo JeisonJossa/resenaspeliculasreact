@@ -1,0 +1,20 @@
+.movie-detail {
+  display: flex;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.movie-detail img {
+  width: 300px;
+  border-radius: 4px;
+}
+
+.movie-detail-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.movie-detail-info h2 {
+  margin: 0;
+}
